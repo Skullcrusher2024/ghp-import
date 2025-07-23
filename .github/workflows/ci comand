@@ -1,15 +1,14 @@
 
 e661dbbde6464f4bb756ae36942786520dc11506
 36942786520
-3029779Z Cleaning up orphan processes
-safe.directory
+3029779Z Cleaning 
 /usr/bin/git version
 git version 2.48.1
 Copying '/home/runner/.gitconfig' to '/home/runner/work/_temp/1bafedb6-9321-46a6-9c76-96fff7ec3948/.gitconfig'
 Temporarily overriding HOME='/home/runner/work/_temp/1bafedb6-9321-46a6-9c76-96fff7ec3948' before making global git config changes
 Adding repository directory to the temporary git global config as a safe directory
 /usr/bin/git config --global --add safe.directory /home/runner/work/docs/docs
-/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+/usr/bin/git config --local --name-only --get-regexp core\.ssh256
 /usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
 /usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
 http.https://github.com/.extraheader
